@@ -144,7 +144,7 @@ None yet (project baru dimulai)
 
 ## 📝 Session Notes
 
-### 2026-08-11 11:30 - Repository Setup & App Deploy
+### 2026-08-11 11:30 - Repository Setup & App Deploy & Ad Removal
 - User minta lanjutkan pengembangan affiliate go
 - Minta "hal yang sama" — maksudnya struktur dev (PLAN, STATUS, README)
 - Perlu publish git
@@ -160,10 +160,20 @@ None yet (project baru dimulai)
 - File dari Gemini Canvas (thin shell, load dari CDN arulbarker/affgo-cdn)
 - Copied file ke repo sebagai index.html
 - Tested locally: HTTP 200 OK (6.2 KB)
+- **User minta hilangkan popup iklan sebelum load ke Gemini Canvas**
+- Copied semua file dari affgo-cdn ke repo lokal
+- Removed 3 major ad popup blocks:
+  1. HILANGKAN IKLAN BUTTON (CTA) — 43 lines removed
+  2. ADBLOCK DETECTION overlay — 92 lines removed  
+  3. POPUP BEBAS IKLAN LOGIN — 70 lines removed
+- Replaced showBuyPopup() with simple alert
+- Updated index.html untuk load dari file lokal (bukan CDN)
+- Total removed: ~2.8KB code (205 lines)
+- Tested: All files HTTP 200, app loads tanpa popup
 
 **Phase 1 DONE ✅ (1.1 + 1.2)**
 
-**Next session**: Phase 2 - Development baru atau extend features
+**Next session**: Load ke Gemini Canvas untuk development lanjutan
 
 ---
 
