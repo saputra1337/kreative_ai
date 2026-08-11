@@ -24,7 +24,7 @@
 - [x] Installed gh CLI via Homebrew
 - [x] Authenticated gh with GitHub account
 
-**Repo**: https://github.com/saputra1337/affiliate-go (private)
+**Repo**: https://github.com/saputra1337/kreative_ai (private)
 
 ---
 
@@ -148,7 +148,7 @@ None yet (project baru dimulai)
 - Base code ada di `/Users/saputra1337/WORK/affgo-cdn` (CDN public repo)
 - Installed gh CLI via Homebrew
 - Auth gh dengan GitHub account (saputra1337)
-- Created private repo: https://github.com/saputra1337/affiliate-go
+- Created private repo: https://github.com/saputra1337/kreative_ai
 - First commit pushed successfully
 
 **Phase 1.1 DONE ✅**
