@@ -33,9 +33,17 @@
 ### Phase 1.2: Add Application File ✅ (2026-08-11)
 - [x] Copied affiliate_go_foto_studio.html from Downloads
 - [x] Added as index.html to repo
+- [x] Copied all files from affgo-cdn (body.html, bundle-*.js, styles.css)
+- [x] **Removed all ad popups**:
+  - Removed: HILANGKAN IKLAN BUTTON (CTA)
+  - Removed: ADBLOCK DETECTION overlay
+  - Removed: POPUP BEBAS IKLAN LOGIN (welcome popup)
+  - Removed: showBuyPopup() call
+- [x] Updated index.html to load from local files (not CDN)
+- [x] Tested locally: HTTP 200 OK all files
 - [x] Committed and pushed to GitHub
 
-**Note**: File adalah thin shell yang load dari CDN arulbarker/affgo-cdn. Tidak perlu restruktur — metode sama seperti Gemini Canvas.
+**Note**: App sekarang berjalan tanpa popup iklan. Load dari file lokal, bukan CDN.
 
 **Blockers**: None
 
